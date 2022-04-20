@@ -13,8 +13,223 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - .collabignore
+    - Assets/Art.meta
+    - Assets/Art/Materials.meta
+    - Assets/Art/Materials/MAT_Coin.mat
+    - Assets/Art/Materials/MAT_Coin.mat.meta
+    - Assets/Art/Materials/MAT_Enemy.mat
+    - Assets/Art/Materials/MAT_Enemy.mat.meta
+    - Assets/Art/Materials/MAT_FinishLine.mat
+    - Assets/Art/Materials/MAT_FinishLine.mat.meta
+    - Assets/Editor.meta
+    - Assets/Editor/com.unity.mobile.notifications.meta
+    - Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
+    - Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/Demigiant.meta
+    - Assets/Plugins/Demigiant/DOTween.meta
+    - Assets/Plugins/Demigiant/DOTween/DOTween.XML
+    - Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb.meta
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/readme.txt
+    - Assets/Plugins/Demigiant/DOTween/readme.txt.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Buttons.meta
+    - Assets/Prefabs/Buttons/Button.prefab
+    - Assets/Prefabs/Buttons/Button.prefab.meta
+    - Assets/Prefabs/PFB_Coin.prefab
+    - Assets/Prefabs/PFB_Coin.prefab.meta
+    - Assets/Prefabs/PFB_Enemy.prefab
+    - Assets/Prefabs/PFB_Enemy.prefab.meta
+    - Assets/Prefabs/PFB_FinishLine.prefab
+    - Assets/Prefabs/PFB_FinishLine.prefab.meta
+    - Assets/Resources.meta
+    - Assets/Resources/DOTweenSettings.asset
+    - Assets/Resources/DOTweenSettings.asset.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SCN_Main.unity
+    - Assets/Scenes/SCN_Main.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Coin.meta
+    - Assets/Scripts/Coin/ItemCollectableBase.cs
+    - Assets/Scripts/Coin/ItemCollectableBase.cs.meta
+    - Assets/Scripts/Coin/ItemCollectableCoin.cs
+    - Assets/Scripts/Coin/ItemCollectableCoin.cs.meta
+    - Assets/Scripts/Ebac.meta
+    - Assets/Scripts/Ebac/Core.meta
+    - Assets/Scripts/Ebac/Core/Singleton.meta
+    - Assets/Scripts/Ebac/Core/Singleton/Singleton.cs
+    - Assets/Scripts/Ebac/Core/Singleton/Singleton.cs.meta
+    - Assets/Scripts/GameManager.cs
+    - Assets/Scripts/GameManager.cs.meta
+    - Assets/Scripts/LerpAdjust.cs
+    - Assets/Scripts/LerpAdjust.cs.meta
+    - Assets/Scripts/Player.meta
+    - Assets/Scripts/Player/PlayerController.cs
+    - Assets/Scripts/Player/PlayerController.cs.meta
+    - Assets/Scripts/TouchController.cs
+    - Assets/Scripts/TouchController.cs.meta
+    - Assets/Scripts/Utils.meta
+    - Assets/Scripts/Utils/EndGame.cs
+    - Assets/Scripts/Utils/EndGame.cs.meta
+    - Assets/Scripts/Utils/ExitGame.cs
+    - Assets/Scripts/Utils/ExitGame.cs.meta
+    - Assets/Scripts/Utils/FlashColor.cs
+    - Assets/Scripts/Utils/FlashColor.cs.meta
+    - Assets/Scripts/Utils/HealthBase.cs
+    - Assets/Scripts/Utils/HealthBase.cs.meta
+    - Assets/Scripts/Utils/ItemManager.cs
+    - Assets/Scripts/Utils/ItemManager.cs.meta
+    - Assets/Scripts/Utils/SCN_Loader.cs
+    - Assets/Scripts/Utils/SCN_Loader.cs.meta
+    - Assets/Scripts/Utils/SO.meta
+    - Assets/Scripts/Utils/SO/SO_Float.cs
+    - Assets/Scripts/Utils/SO/SO_Float.cs.meta
+    - Assets/Scripts/Utils/SO/SO_Int.cs
+    - Assets/Scripts/Utils/SO/SO_Int.cs.meta
+    - Assets/Scripts/Utils/SO/SO_String.cs
+    - Assets/Scripts/Utils/SO/SO_String.cs.meta
+    - Assets/Scripts/Utils/SO/SO_UI_Int_Update.cs
+    - Assets/Scripts/Utils/SO/SO_UI_Int_Update.cs.meta
+    - Assets/Scripts/Utils/SoundHelper.cs
+    - Assets/Scripts/Utils/SoundHelper.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
