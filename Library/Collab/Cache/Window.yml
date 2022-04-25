@@ -122,8 +122,8 @@ MonoBehaviour:
     - Assets/Scripts/Utils/HealthBase.cs.meta
     - Assets/Scripts/Utils/ItemManager.cs
     - Assets/Scripts/Utils/ItemManager.cs.meta
-    - Assets/Scripts/Utils/SCN_Loader.cs
-    - Assets/Scripts/Utils/SCN_Loader.cs.meta
+    - Assets/Scripts/Utils/SCNLoader.cs
+    - Assets/Scripts/Utils/SCNLoader.cs.meta
     - Assets/Scripts/Utils/SO.meta
     - Assets/Scripts/Utils/SO/SO_Float.cs
     - Assets/Scripts/Utils/SO/SO_Float.cs.meta

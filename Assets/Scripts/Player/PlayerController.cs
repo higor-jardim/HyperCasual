@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 1f;
 
     public string tagToCheckEnemy = "Enemy";
+    public string tagToCheckFinishLine = "FinishLine";
 
     public GameObject endScreen;
 
@@ -38,6 +39,11 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.transform.tag == tagToCheckEnemy)
+        {
+            EndGame();
+        }
+
+        if (collision.transform.tag == tagToCheckFinishLine)
         {
             EndGame();
         }

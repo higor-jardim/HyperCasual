@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4690242283525228106}
   m_Layer: 0
   m_Name: PFB_FinishLine
-  m_TagString: Enemy
+  m_TagString: FinishLine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

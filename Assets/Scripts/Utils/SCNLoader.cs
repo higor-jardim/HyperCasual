@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SCN_Loader : MonoBehaviour
+public class SCNLoader : MonoBehaviour
 {
     public void Level(int i)
     {
