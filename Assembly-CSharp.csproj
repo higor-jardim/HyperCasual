@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Coin\ItemCollectableBase.cs" />
     <Compile Include="Assets\Scripts\Utils\ExitGame.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_Int.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpBase.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
