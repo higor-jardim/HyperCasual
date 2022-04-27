@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ebac.Core.Singleton;
+using TMPro;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
     //publics
     [Header("Lerp Speed")]
@@ -16,13 +18,24 @@ public class PlayerController : MonoBehaviour
 
     public GameObject endScreen;
 
+    [Header("Text")]
+    public TextMeshPro uiTextPowerUp;
+
+
+    public bool Invicibility = true;
+
     //privates
     private bool _canrun;
     private Vector3 _pos;
+    private float _currentspeed;
 
-    
+    private void Start()
+    {
+        ResetSpeed();
 
-    
+    }
+
+
     void Update()
     {
        if (!_canrun) return;
@@ -40,12 +53,12 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.transform.tag == tagToCheckEnemy)
         {
-            EndGame();
+           if(Invicibility) EndGame();
         }
 
         if (collision.transform.tag == tagToCheckFinishLine)
         {
-            EndGame();
+            if (Invicibility) EndGame();
         }
     }
 
@@ -59,4 +72,28 @@ public class PlayerController : MonoBehaviour
     {
         _canrun = true;
     }
+
+    #region POWER UPS
+
+    public void SetPowerUpText(string s)
+    {
+        uiTextPowerUp.text = s;
+    }
+    public void PowerUpSpeedUp(float f)
+    {
+        _currentspeed = f;
+    }
+
+    public void ResetSpeed()
+    {
+        _currentspeed = speed;
+    }
+
+    public void PowerUpInvincibility(bool b = true)
+    {
+        Invicibility = b;
+    }
+
+    
+    #endregion
 }

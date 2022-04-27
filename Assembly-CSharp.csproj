@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpBase.cs" />
     <Compile Include="Assets\Scripts\Utils\ItemManager.cs" />
     <Compile Include="Assets\Scripts\LerpAdjust.cs" />
     <Compile Include="Assets\Scripts\Utils\SCNLoader.cs" />
@@ -74,7 +75,8 @@
     <Compile Include="Assets\Scripts\Coin\ItemCollectableBase.cs" />
     <Compile Include="Assets\Scripts\Utils\ExitGame.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_Int.cs" />
-    <Compile Include="Assets\Scripts\PowerUps\PowerUpBase.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpSpeedUp.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpInvincibility.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
