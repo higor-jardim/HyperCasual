@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Ebac\Core\Singleton\Singleton.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_Float.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_String.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpSpeedUp.cs" />
     <Compile Include="Assets\Scripts\Utils\FlashColor.cs" />
     <Compile Include="Assets\Scripts\TouchController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -73,10 +74,11 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Utils\HealthBase.cs" />
     <Compile Include="Assets\Scripts\Coin\ItemCollectableBase.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpInvincibility.cs" />
     <Compile Include="Assets\Scripts\Utils\ExitGame.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_Int.cs" />
-    <Compile Include="Assets\Scripts\PowerUps\PowerUpSpeedUp.cs" />
-    <Compile Include="Assets\Scripts\PowerUps\PowerUpInvincibility.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpHeight.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\PowerUpCoinGobbler.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -23,6 +23,10 @@ MonoBehaviour:
     - Assets/Art/Materials/MAT_Enemy.mat.meta
     - Assets/Art/Materials/MAT_FinishLine.mat
     - Assets/Art/Materials/MAT_FinishLine.mat.meta
+    - Assets/Art/Materials/MAT_PowerCoin.mat
+    - Assets/Art/Materials/MAT_PowerCoin.mat.meta
+    - Assets/Art/Materials/MAT_PowerFly.mat
+    - Assets/Art/Materials/MAT_PowerFly.mat.meta
     - Assets/Art/Materials/MAT_PowerInvincinble.mat
     - Assets/Art/Materials/MAT_PowerInvincinble.mat.meta
     - Assets/Art/Materials/MAT_PowerSpeed.mat
@@ -89,6 +93,8 @@ MonoBehaviour:
     - Assets/Prefabs/PFB_FinishLine.prefab.meta
     - Assets/Prefabs/PFB_PowerUpBase.prefab
     - Assets/Prefabs/PFB_PowerUpBase.prefab.meta
+    - Assets/Prefabs/PFB_PowerUpFly.prefab
+    - Assets/Prefabs/PFB_PowerUpFly.prefab.meta
     - Assets/Prefabs/PFB_PowerUpInvincibility.prefab
     - Assets/Prefabs/PFB_PowerUpInvincibility.prefab.meta
     - Assets/Prefabs/PFB_PowerUpSpeedUp.prefab
@@ -124,6 +130,10 @@ MonoBehaviour:
     - Assets/Scripts/PowerUps.meta
     - Assets/Scripts/PowerUps/PowerUpBase.cs
     - Assets/Scripts/PowerUps/PowerUpBase.cs.meta
+    - Assets/Scripts/PowerUps/PowerUpCoinGobbler.cs
+    - Assets/Scripts/PowerUps/PowerUpCoinGobbler.cs.meta
+    - Assets/Scripts/PowerUps/PowerUpHeight.cs
+    - Assets/Scripts/PowerUps/PowerUpHeight.cs.meta
     - Assets/Scripts/PowerUps/PowerUpInvincibility.cs
     - Assets/Scripts/PowerUps/PowerUpInvincibility.cs.meta
     - Assets/Scripts/PowerUps/PowerUpSpeedUp.cs
@@ -248,7 +258,7 @@ MonoBehaviour:
     - ProjectSettings/VFXManager.asset
     - ProjectSettings/VersionControlSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
