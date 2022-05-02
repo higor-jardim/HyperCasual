@@ -52,19 +52,22 @@ public class PlayerController : Singleton<PlayerController>
        _pos.z = transform.position.z;
     
        transform.position = Vector3.Lerp(transform.position, _pos, lerpSpeed * Time.deltaTime); 
-       transform.Translate(transform.forward * speed * Time.deltaTime);
+       transform.Translate(transform.forward * _currentSpeed * Time.deltaTime);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.transform.tag == tagToCheckEnemy)
         {
-           if(Invicibility) EndGame();
+           if(Invicibility == false)
+            {
+                EndGame();
+            }
         }
 
         if (collision.transform.tag == tagToCheckFinishLine)
         {
-            if (Invicibility) EndGame();
+            EndGame();
         }
     }
 
