@@ -16,6 +16,47 @@ MonoBehaviour:
     m_Keys:
     - .collabignore
     - Assets/Art.meta
+    - Assets/Art/3D.meta
+    - Assets/Art/3D/Astronaut.meta
+    - Assets/Art/3D/Astronaut/Animations.meta
+    - Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Death.fbx
+    - Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Death.fbx.meta
+    - Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Idle.fbx
+    - Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Idle.fbx.meta
+    - Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Run.fbx
+    - Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Run.fbx.meta
+    - Assets/Art/3D/Astronaut/Animations/Animator_Astronaut_3D.controller
+    - Assets/Art/3D/Astronaut/Animations/Animator_Astronaut_3D.controller.meta
+    - Assets/Art/3D/Astronaut/Material.meta
+    - Assets/Art/3D/Astronaut/Material/MAT_Astronaut.mat
+    - Assets/Art/3D/Astronaut/Material/MAT_Astronaut.mat.meta
+    - Assets/Art/3D/Astronaut/Material/MAT_Astronaut_Visor.mat
+    - Assets/Art/3D/Astronaut/Material/MAT_Astronaut_Visor.mat.meta
+    - Assets/Art/3D/Astronaut/Model.meta
+    - Assets/Art/3D/Astronaut/Model/MDL_Astronaut.fbx
+    - Assets/Art/3D/Astronaut/Model/MDL_Astronaut.fbx.meta
+    - Assets/Art/3D/Astronaut/Prefab.meta
+    - Assets/Art/3D/Astronaut/Prefab/PFB_Astronaut Variant.prefab
+    - Assets/Art/3D/Astronaut/Prefab/PFB_Astronaut Variant.prefab.meta
+    - Assets/Art/3D/Astronaut/Texture.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_AlbedoTransparency.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_AlbedoTransparency.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Ao.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Ao.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Emission.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Emission.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_MetallicSmoothness.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_MetallicSmoothness.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Normal.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Normal.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_AlbedoTransparency.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_AlbedoTransparency.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_Ao.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_Ao.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_MetallicSmoothness.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_MetallicSmoothness.tif.meta
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_Normal.tif
+    - Assets/Art/3D/Astronaut/Texture/MAT_Techboy_Visor_Normal.tif.meta
     - Assets/Art/Materials.meta
     - Assets/Art/Materials/MAT_Coin.mat
     - Assets/Art/Materials/MAT_Coin.mat.meta
@@ -260,7 +301,7 @@ MonoBehaviour:
     - ProjectSettings/VFXManager.asset
     - ProjectSettings/VersionControlSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

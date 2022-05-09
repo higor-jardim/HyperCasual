@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 60
+  controlID: 37
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 69
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 70
+  controlID: 116
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,22 +396,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Art/3D/Astronaut/Animations
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Art/3D/Astronaut/Animations
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Higor\Documents\GitHub\HyperCasual
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 6}
-    m_SelectedIDs: 763f0000
-    m_LastClickedID: 16246
-    m_ExpandedIDs: 00000000643f0000663f0000683f00006a3f000000ca9a3b
+    m_SelectedIDs: be3f0000
+    m_LastClickedID: 16318
+    m_ExpandedIDs: 00000000643f0000663f0000683f00006a3f0000c03f0000c23f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,23 +562,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: c2e5ffff50fbffff2a3d00006a760000
+      m_SelectedIDs: 7eefffff
+      m_LastClickedID: -4226
+      m_ExpandedIDs: 9ef9ffff50fbffff0e3d00002a3d0000aa3d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Player
+        m_OriginalName: Player
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -1634
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -625,9 +625,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.17355399, y: 16.162922, z: 0.8836026}
+    m_Target: {x: -0.13017148, y: 0.3635618, z: 0.39697927}
     speed: 2
-    m_Value: {x: -0.17355399, y: 16.162922, z: 0.8836026}
+    m_Value: {x: -0.13017148, y: 0.3635618, z: 0.39697927}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -678,9 +678,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.15803462, y: 0.010957751, z: -0.0017538981, w: -0.9873712}
   m_Size:
-    m_Target: 14.1293745
+    m_Target: 1.6369991
     speed: 2
-    m_Value: 14.1293745
+    m_Value: 1.6369991
   m_Ortho:
     m_Target: 0
     speed: 2
