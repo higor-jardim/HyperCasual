@@ -22,8 +22,11 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Text")]
     public TextMeshPro uiTextPowerUp;
 
-    [Header("Text")]
+    [Header("Coin Setup")]
     public GameObject coinCollector;
+
+    [Header("Animation")]
+    public AnimatorManager animatorManager;
 
 
     public bool Invicibility = true;
@@ -33,6 +36,7 @@ public class PlayerController : Singleton<PlayerController>
     private Vector3 _pos;
     private float _currentSpeed;
     private Vector3 _startPosition;
+    private float _baseSpeedAnimation = 7f;
 
     private void Start()
     {
@@ -61,7 +65,7 @@ public class PlayerController : Singleton<PlayerController>
         {
            if(Invicibility == false)
             {
-                EndGame();
+                EndGame(AnimatorManager.AnimationType.DEAD);
             }
         }
 
@@ -71,15 +75,17 @@ public class PlayerController : Singleton<PlayerController>
         }
     }
 
-    private void EndGame()
+    private void EndGame(AnimatorManager.AnimationType animationType = AnimatorManager.AnimationType.IDLE)
     {
         _canrun = false;
         endScreen.SetActive(true);
+        animatorManager.Play(animationType);
     }
 
     public void StartToRun()
     {
         _canrun = true;
+        animatorManager.Play(AnimatorManager.AnimationType.RUN, _currentSpeed / _baseSpeedAnimation);
     }
 
     #region POWER UPS
