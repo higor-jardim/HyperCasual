@@ -364,8 +364,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6201953, y: 1.3531572, z: 1.4139585}
-  m_Center: {x: -0.040171444, y: -0.063914, z: 0.20697927}
+  m_Size: {x: 1.6336381, y: 1.3531572, z: 1.8532974}
+  m_Center: {x: 0.021382213, y: -0.063914, z: -0.08143109}
 --- !u!114 &153612849530349329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,6 +386,7 @@ MonoBehaviour:
   endScreen: {fileID: 0}
   uiTextPowerUp: {fileID: 1771476738}
   coinCollector: {fileID: 1777621736}
+  animatorManager: {fileID: 0}
   Invicibility: 0
 --- !u!54 &153612849530349340
 Rigidbody:

@@ -126,6 +126,20 @@ MonoBehaviour:
     - Assets/Prefabs/Buttons.meta
     - Assets/Prefabs/Buttons/Button.prefab
     - Assets/Prefabs/Buttons/Button.prefab.meta
+    - Assets/Prefabs/Levels.meta
+    - Assets/Prefabs/Levels/Level Pieces.meta
+    - Assets/Prefabs/Levels/Level Pieces/Piece 01.prefab
+    - Assets/Prefabs/Levels/Level Pieces/Piece 01.prefab.meta
+    - Assets/Prefabs/Levels/Level Pieces/Piece 02.prefab
+    - Assets/Prefabs/Levels/Level Pieces/Piece 02.prefab.meta
+    - Assets/Prefabs/Levels/Level Pieces/Piece 03.prefab
+    - Assets/Prefabs/Levels/Level Pieces/Piece 03.prefab.meta
+    - Assets/Prefabs/Levels/Level Pieces/Piece 04.prefab
+    - Assets/Prefabs/Levels/Level Pieces/Piece 04.prefab.meta
+    - Assets/Prefabs/Levels/Level01.prefab
+    - Assets/Prefabs/Levels/Level01.prefab.meta
+    - Assets/Prefabs/Levels/Level02.prefab
+    - Assets/Prefabs/Levels/Level02.prefab.meta
     - Assets/Prefabs/PFB_Coin.prefab
     - Assets/Prefabs/PFB_Coin.prefab.meta
     - Assets/Prefabs/PFB_Enemy.prefab
@@ -169,6 +183,9 @@ MonoBehaviour:
     - Assets/Scripts/GameManager.cs.meta
     - Assets/Scripts/LerpAdjust.cs
     - Assets/Scripts/LerpAdjust.cs.meta
+    - Assets/Scripts/LevelManager.meta
+    - Assets/Scripts/LevelManager/LevelManager.cs
+    - Assets/Scripts/LevelManager/LevelManager.cs.meta
     - Assets/Scripts/Player.meta
     - Assets/Scripts/Player/PlayerController.cs
     - Assets/Scripts/Player/PlayerController.cs.meta
@@ -305,7 +322,7 @@ MonoBehaviour:
     - ProjectSettings/VFXManager.asset
     - ProjectSettings/VersionControlSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
