@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Coin\ItemCollectableCoin.cs" />
     <Compile Include="Assets\Scripts\Utils\AnimatorManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\LevelManager\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Utils\HealthBase.cs" />
     <Compile Include="Assets\Scripts\Coin\ItemCollectableBase.cs" />
     <Compile Include="Assets\Scripts\PowerUps\PowerUpInvincibility.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="Assets\Scripts\Utils\ExitGame.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_Int.cs" />
     <Compile Include="Assets\Scripts\AnimationExample.cs" />
-    <Compile Include="Assets\Scripts\LevelManager\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\LevelManager\LevelPieceBase.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
