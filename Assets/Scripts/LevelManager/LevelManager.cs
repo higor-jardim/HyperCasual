@@ -8,6 +8,8 @@ public class LevelManager : MonoBehaviour
     
     public List<GameObject> levels;
 
+    public ArtManager.ArtType artType;
+
     [Header("Pieces")]
     public List<LevelPieceBase> levelPiecesStart;
     public List<LevelPieceBase> levelPieces;
@@ -20,7 +22,7 @@ public class LevelManager : MonoBehaviour
 
     private GameObject _currentLevel;
 
-    private List<LevelPieceBase> _spawnedPieces;
+    private List<LevelPieceBase> _spawnedPieces = new List<LevelPieceBase>();
 
     private void Awake()
     {
@@ -62,11 +64,17 @@ public class LevelManager : MonoBehaviour
             spawnedPiece.transform.position = lastPiece.endPiece.position;
         }
         _spawnedPieces.Add(spawnedPiece);
+
+        foreach(var p in spawnedPiece.GetComponentsInChildren<ArtPiece>())
+        {
+            p.ChangePiece(ArtManager.Instance.GetSetupByType().gameObject);
+        }
     }
 
     private void CreateLevelPieces()
     {
-        _spawnedPieces = new List<LevelPieceBase>();
+        
+        CleanSpawnedPieces();
 
         for (int i = 0; i < piecesStartNumber; i++)
         {
@@ -82,5 +90,15 @@ public class LevelManager : MonoBehaviour
         }
     }
     #endregion
+
+    private void CleanSpawnedPieces()
+    {
+        for (int i = _spawnedPieces.Count -1; i  >= 0; i--)
+        {
+            Destroy(_spawnedPieces[i].gameObject);
+        }
+
+        _spawnedPieces.Clear();
+    }
 }
 
