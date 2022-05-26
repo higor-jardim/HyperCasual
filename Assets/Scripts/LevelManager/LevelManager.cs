@@ -10,19 +10,15 @@ public class LevelManager : MonoBehaviour
 
     public ArtManager.ArtType artType;
 
-    [Header("Pieces")]
-    public List<LevelPieceBase> levelPiecesStart;
-    public List<LevelPieceBase> levelPieces;
-    public List<LevelPieceBase> levelPiecesEnd;
-    public int piecesNumber = 5;
-    public int piecesStartNumber = 3;
-    public int piecesEndNumber = 1;
+    public List<LevelPieceBasedSetup> levelPieceBasedSetup;
+    
 
     public int _index;
 
     private GameObject _currentLevel;
 
-    private List<LevelPieceBase> _spawnedPieces = new List<LevelPieceBase>();
+    private List<LevelPieceBase> _spawnedPieces;
+    private LevelPieceBasedSetup _currSetup;
 
     private void Awake()
     {
@@ -55,7 +51,7 @@ public class LevelManager : MonoBehaviour
     #region
     private void CreateLevelPiece(List<LevelPieceBase> list)
     {
-        var piece = levelPieces[Random.Range(0, list.Count)];
+        var piece = list[Random.Range(0, list.Count)];
         var spawnedPiece = Instantiate(piece, container);
 
         if(_spawnedPieces.Count > 0)
@@ -63,11 +59,17 @@ public class LevelManager : MonoBehaviour
             var lastPiece = _spawnedPieces[_spawnedPieces.Count - 1];
             spawnedPiece.transform.position = lastPiece.endPiece.position;
         }
+
+        else
+        {
+            spawnedPiece.transform.localPosition = Vector3.zero;
+        }
+
         _spawnedPieces.Add(spawnedPiece);
 
         foreach(var p in spawnedPiece.GetComponentsInChildren<ArtPiece>())
         {
-            p.ChangePiece(ArtManager.Instance.GetSetupByType().gameObject);
+            p.ChangePiece(ArtManager.Instance.GetSetupByType(_currSetup.artType).gameObject);
         }
     }
 
@@ -76,18 +78,34 @@ public class LevelManager : MonoBehaviour
         
         CleanSpawnedPieces();
 
-        for (int i = 0; i < piecesStartNumber; i++)
+        _spawnedPieces = new List<LevelPieceBase>();
+
+        if (_currSetup != null)
         {
-            CreateLevelPiece(levelPiecesStart);
+            _index++;
+            if (_index >= levelPieceBasedSetup.Count)
+            {
+                ResetLevelIndex();
+            }
         }
-        for (int i = 0; i < piecesNumber; i++)
+
+        _currSetup = levelPieceBasedSetup[_index];
+
+        for (int i = 0; i < _currSetup.piecesStartNumber; i++)
         {
-            CreateLevelPiece(levelPieces);
+            CreateLevelPiece(_currSetup.levelPiecesStart);
         }
-        for (int i = 0; i < piecesEndNumber; i++)
+
+        for (int i = 0; i < _currSetup.piecesNumber; i++)
         {
-            CreateLevelPiece(levelPiecesEnd);
+            CreateLevelPiece(_currSetup.levelPieces);
         }
+
+        for (int i = 0; i < _currSetup.piecesEndNumber; i++)
+        {
+            CreateLevelPiece(_currSetup.levelPiecesEnd);
+        }
+
     }
     #endregion
 

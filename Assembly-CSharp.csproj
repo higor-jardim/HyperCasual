@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PowerUps\PowerUpBase.cs" />
+    <Compile Include="Assets\Scripts\LevelManager\ArtManager.cs" />
     <Compile Include="Assets\Scripts\Utils\ItemManager.cs" />
     <Compile Include="Assets\Scripts\LevelManager\LevelPieceBase.cs" />
     <Compile Include="Assets\Scripts\LerpAdjust.cs" />
@@ -71,7 +72,9 @@
     <Compile Include="Assets\Scripts\TouchController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Utils\EndGame.cs" />
+    <Compile Include="Assets\Scripts\LevelManager\ArtPiece.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_UI_Int_Update.cs" />
+    <Compile Include="Assets\Scripts\LevelManager\ColorManager.cs" />
     <Compile Include="Assets\Scripts\Coin\ItemCollectableCoin.cs" />
     <Compile Include="Assets\Scripts\Utils\AnimatorManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
@@ -83,8 +86,7 @@
     <Compile Include="Assets\Scripts\Utils\ExitGame.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_Int.cs" />
     <Compile Include="Assets\Scripts\AnimationExample.cs" />
-    <Compile Include="Assets\Scripts\LevelManager\ArtPiece.cs" />
-    <Compile Include="Assets\Scripts\LevelManager\ArtManager.cs" />
+    <Compile Include="Assets\Scripts\Utils\SO\LevelPieceBasedSetup.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
