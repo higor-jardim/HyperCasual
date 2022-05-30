@@ -203,8 +203,6 @@ MonoBehaviour:
     - Assets/Scripts/LevelManager/LevelManager.cs.meta
     - Assets/Scripts/LevelManager/LevelPieceBase.cs
     - Assets/Scripts/LevelManager/LevelPieceBase.cs.meta
-    - Assets/Scripts/LevelManager/LevelPieceBasedSetup.cs
-    - Assets/Scripts/LevelManager/LevelPieceBasedSetup.cs.meta
     - Assets/Scripts/Player.meta
     - Assets/Scripts/Player/PlayerController.cs
     - Assets/Scripts/Player/PlayerController.cs.meta
@@ -237,6 +235,8 @@ MonoBehaviour:
     - Assets/Scripts/Utils/SCNLoader.cs
     - Assets/Scripts/Utils/SCNLoader.cs.meta
     - Assets/Scripts/Utils/SO.meta
+    - Assets/Scripts/Utils/SO/LevelPieceBasedSetup.cs
+    - Assets/Scripts/Utils/SO/LevelPieceBasedSetup.cs.meta
     - Assets/Scripts/Utils/SO/SO_Float.cs
     - Assets/Scripts/Utils/SO/SO_Float.cs.meta
     - Assets/Scripts/Utils/SO/SO_Int.cs
