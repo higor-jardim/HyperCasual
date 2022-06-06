@@ -17,7 +17,7 @@ public class LevelManager : MonoBehaviour
 
     private GameObject _currentLevel;
 
-    private List<LevelPieceBase> _spawnedPieces;
+    [SerializeField]private List<LevelPieceBase> _spawnedPieces = new List<LevelPieceBase>();
     private LevelPieceBasedSetup _currSetup;
 
     private void Awake()
@@ -78,7 +78,7 @@ public class LevelManager : MonoBehaviour
         
         CleanSpawnedPieces();
 
-        _spawnedPieces = new List<LevelPieceBase>();
+        
 
         if (_currSetup != null)
         {
