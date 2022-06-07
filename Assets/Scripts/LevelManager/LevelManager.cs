@@ -23,6 +23,11 @@ public class LevelManager : MonoBehaviour
     private void Awake()
     {
         //SpawnNextLevel();
+        
+    }
+
+    private void Start()
+    {
         CreateLevelPieces();
     }
 
@@ -106,6 +111,7 @@ public class LevelManager : MonoBehaviour
             CreateLevelPiece(_currSetup.levelPiecesEnd);
         }
 
+        ColorManager.Instance.ChangeColorType(_currSetup.artType);
     }
     #endregion
 
@@ -117,6 +123,14 @@ public class LevelManager : MonoBehaviour
         }
 
         _spawnedPieces.Clear();
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.D))
+        {
+            CreateLevelPieces();
+        }
     }
 }
 

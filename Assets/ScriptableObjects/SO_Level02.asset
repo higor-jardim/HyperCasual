@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9555f5f20f432e144ad2f17a9192f73b, type: 3}
   m_Name: SO_Level02
   m_EditorClassIdentifier: 
-  artType: 6
+  artType: 5
   levelPiecesStart:
   - {fileID: 8504452932649211628, guid: fb24746f697978841b6406fe28e647c2, type: 3}
   levelPieces:
@@ -21,6 +21,6 @@ MonoBehaviour:
   - {fileID: 3755424967182747640, guid: bebb727cdbe8ed34c9e20cb28d402ca9, type: 3}
   levelPiecesEnd:
   - {fileID: 8504452932649211628, guid: 54c3061a16834a24198f9902c9cbf55a, type: 3}
-  piecesNumber: 5
-  piecesStartNumber: 3
+  piecesNumber: 7
+  piecesStartNumber: 4
   piecesEndNumber: 1

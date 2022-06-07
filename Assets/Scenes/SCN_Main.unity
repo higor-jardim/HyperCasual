@@ -160,7 +160,8 @@ MonoBehaviour:
   levelPieceBasedSetup:
   - {fileID: 11400000, guid: 91da5b292e790db4596954525e7a6468, type: 2}
   - {fileID: 11400000, guid: b42a24142c7585549a7c9b80d4e9fb14, type: 2}
-  _index: 1
+  - {fileID: 11400000, guid: 925edfd4fd9b32344acf205256ec3675, type: 2}
+  _index: 0
   _spawnedPieces: []
 --- !u!4 &16466221
 Transform:
@@ -758,17 +759,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materials:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 5ac06f012c17b0d4ebcd3c777e22fba0, type: 2}
+  - {fileID: 2100000, guid: a831dc2fd35afca488ee23f166680a70, type: 2}
   colorSetups:
-  - artType: 0
+  - artType: 5
     colors:
-    - {r: 0.7735849, g: 0.010217119, b: 0.010217119, a: 0}
+    - {r: 0.4528302, g: 0.010252746, b: 0.010252746, a: 0}
     - {r: 0.122641504, g: 0.040957626, b: 0.040957626, a: 0}
-  - artType: 1
+  - artType: 6
     colors:
     - {r: 0.16299315, g: 0.03147021, b: 0.9811321, a: 0}
     - {r: 0.03974723, g: 0.06772276, b: 0.2735849, a: 0}
+  - artType: 3
+    colors:
+    - {r: 0.031372555, g: 0.8419141, b: 0.98039216, a: 0}
+    - {r: 0.28996083, g: 0.3056082, b: 0.4245283, a: 0}
 --- !u!4 &974679056
 Transform:
   m_ObjectHideFlags: 0
