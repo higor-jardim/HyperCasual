@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ebac.Core.Singleton;
 
-public class LevelManager : MonoBehaviour
+public class LevelManager : Singleton<LevelManager>
 {
     public Transform container;
     
@@ -24,6 +25,7 @@ public class LevelManager : MonoBehaviour
     {
         //SpawnNextLevel();
         
+        
     }
 
     private void Start()
@@ -31,7 +33,7 @@ public class LevelManager : MonoBehaviour
         CreateLevelPieces();
     }
 
-    private void SpawnNextLevel()
+    public void SpawnNextLevel()
     {
         if(_currentLevel != null)
         {
@@ -78,7 +80,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    private void CreateLevelPieces()
+    public void CreateLevelPieces()
     {
         
         CleanSpawnedPieces();

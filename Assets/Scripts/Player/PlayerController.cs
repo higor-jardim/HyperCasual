@@ -18,6 +18,8 @@ public class PlayerController : Singleton<PlayerController>
     public string tagToCheckFinishLine = "FinishLine";
 
     public GameObject endScreen;
+    public GameObject winScreen;
+    public AudioSource audioSource;
 
     [Header("Text")]
     public TextMeshPro uiTextPowerUp;
@@ -71,7 +73,9 @@ public class PlayerController : Singleton<PlayerController>
 
         if (collision.transform.tag == tagToCheckFinishLine)
         {
-            EndGame();
+            
+            WinLevel();
+            
         }
     }
 
@@ -82,11 +86,21 @@ public class PlayerController : Singleton<PlayerController>
         animatorManager.Play(animationType);
     }
 
+    private void WinLevel(AnimatorManager.AnimationType animationType = AnimatorManager.AnimationType.IDLE)
+    {
+        _canrun = false;
+        audioSource.Stop();
+        winScreen.SetActive(true);
+        animatorManager.Play(animationType);
+        LevelManager.Instance.CreateLevelPieces();
+    }
+
     public void StartToRun()
     {
         _canrun = true;
         animatorManager.Play(AnimatorManager.AnimationType.RUN, _currentSpeed / _baseSpeedAnimation);
     }
+
 
     #region POWER UPS
 

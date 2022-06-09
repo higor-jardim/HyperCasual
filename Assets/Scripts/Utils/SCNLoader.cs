@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SCNLoader : MonoBehaviour
+
 {
+    public GameObject winScreen;
     public void Level(int i)
     {
         SceneManager.LoadScene(i);
@@ -13,5 +15,15 @@ public class SCNLoader : MonoBehaviour
     public void Level(string s)
     {
         SceneManager.LoadScene(s);
+    }
+
+    public void NextLevel()
+    {
+        LevelManager.Instance.SpawnNextLevel();
+    }
+
+    public void ClearUI()
+    {
+        winScreen.SetActive(false);
     }
 }
