@@ -23,6 +23,8 @@ public class LevelManager : Singleton<LevelManager>
 
     private void Awake()
     {
+        base.Awake();
+
         //SpawnNextLevel();
         
         

@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\Utils\ItemManager.cs" />
     <Compile Include="Assets\Scripts\LevelManager\LevelPieceBase.cs" />
     <Compile Include="Assets\Scripts\LerpAdjust.cs" />
+    <Compile Include="Assets\Scripts\Utils\SO\LevelPieceBasedSetup.cs" />
     <Compile Include="Assets\Scripts\Utils\SCNLoader.cs" />
     <Compile Include="Assets\Scripts\Utils\SoundHelper.cs" />
     <Compile Include="Assets\Scripts\Ebac\Core\Singleton\Singleton.cs" />
@@ -86,7 +87,6 @@
     <Compile Include="Assets\Scripts\Utils\ExitGame.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SO_Int.cs" />
     <Compile Include="Assets\Scripts\AnimationExample.cs" />
-    <Compile Include="Assets\Scripts\Utils\SO\LevelPieceBasedSetup.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
