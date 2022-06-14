@@ -92,6 +92,7 @@ public class PlayerController : Singleton<PlayerController>
         audioSource.Stop();
         winScreen.SetActive(true);
         animatorManager.Play(animationType);
+        transform.position = _startPosition;
         LevelManager.Instance.CreateLevelPieces();
     }
 
@@ -99,6 +100,7 @@ public class PlayerController : Singleton<PlayerController>
     {
         _canrun = true;
         animatorManager.Play(AnimatorManager.AnimationType.RUN, _currentSpeed / _baseSpeedAnimation);
+        audioSource.Play();
     }
 
 

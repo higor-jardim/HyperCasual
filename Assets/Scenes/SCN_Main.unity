@@ -1264,10 +1264,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 614283d28499f354ba479f2c255fd1e0, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1596,7 +1596,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1342233970}
         m_TargetAssemblyTypeName: SCNLoader, Assembly-CSharp
-        m_MethodName: ClearUI
+        m_MethodName: NextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

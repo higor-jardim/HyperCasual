@@ -19,7 +19,8 @@ public class SCNLoader : MonoBehaviour
 
     public void NextLevel()
     {
-        LevelManager.Instance.SpawnNextLevel();
+        PlayerController.Instance.StartToRun();
+        ClearUI();
     }
 
     public void ClearUI()
