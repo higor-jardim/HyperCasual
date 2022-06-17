@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 1
-  controlID: 140
+  controlID: 39
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 141
+  controlID: 40
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 66
+  controlID: 127
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 44
+  controlID: 74
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -486,22 +486,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Utils
+    - Assets/Prefabs/Levels/Level Pieces
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Utils
+  - Assets/Prefabs/Levels/Level Pieces
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Higor\Documents\GitHub\HyperCasual
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 58}
-    m_SelectedIDs: 464a0000
-    m_LastClickedID: 19014
-    m_ExpandedIDs: 00000000444a0000464a0000484a00004a4a00004c4a00004e4a000000ca9a3b
+    scrollPos: {x: 0, y: 26}
+    m_SelectedIDs: 244b0000
+    m_LastClickedID: 19236
+    m_ExpandedIDs: 00000000444a0000464a0000484a00004c4a00004e4a0000684a0000704a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -651,10 +651,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 18}
-      m_SelectedIDs: 6c3d0000
-      m_LastClickedID: 15724
-      m_ExpandedIDs: 50fbffff123d0000243d0000303d0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -715,9 +715,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 720, y: 1280, z: 0}
+    m_Target: {x: -12.77607, y: 5.2958894, z: 22.759998}
     speed: 2
-    m_Value: {x: 720, y: 1280, z: 0}
+    m_Value: {x: -0.38655487, y: -0.61854243, z: 14.218318}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -766,11 +766,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.14794132, y: -0.013351021, z: 0.001997331, w: 0.98890394}
     speed: 2
-    m_Value: {x: 0.14794134, y: -0.013351022, z: 0.0019973312, w: 0.988904}
+    m_Value: {x: 0.047378235, y: 0.008989737, z: -0.00042639519, w: 0.9988365}
   m_Size:
-    m_Target: 419.24353
+    m_Target: 11.851544
     speed: 2
-    m_Value: 419.24353
+    m_Value: 14.732386
   m_Ortho:
     m_Target: 0
     speed: 2
