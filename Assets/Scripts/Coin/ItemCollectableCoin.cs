@@ -8,6 +8,11 @@ public class ItemCollectableCoin : ItemCollectableBase
     public bool collect = false;
     public float lerp = 5f;
     public float minDistance = 1;
+
+    private void Start()
+    {
+        CoinAminationManager.Instance.RegisterCoin(this);
+    }
     protected override void OnCollect()
     {
         base.OnCollect();

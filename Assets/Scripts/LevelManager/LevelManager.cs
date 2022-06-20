@@ -77,6 +77,7 @@ public class LevelManager : Singleton<LevelManager>
             _spawnedPieces[i].transform.DOScale(1, scaleDuration).SetEase(ease);
             yield return new WaitForSeconds(scaleTimeBetweenPieces);
         }
+        CoinAminationManager.Instance.StartAnimations();
     }
 
     #region
@@ -140,6 +141,7 @@ public class LevelManager : Singleton<LevelManager>
         ColorManager.Instance.ChangeColorType(_currSetup.artType);
 
         StartCoroutine(ScalePiecesByTime());
+        
     }
     #endregion
 
