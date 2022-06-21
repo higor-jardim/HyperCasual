@@ -30,6 +30,7 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Animation")]
     public AnimatorManager animatorManager;
 
+    [SerializeField] private BounceHelper _bounceHelper;
 
     public bool Invicibility = true;
 
@@ -47,6 +48,11 @@ public class PlayerController : Singleton<PlayerController>
 
     }
 
+    public void Bounce()
+    {
+        if(_bounceHelper != null)
+        _bounceHelper.Bounce();
+    }
 
     void Update()
     {

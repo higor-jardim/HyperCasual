@@ -89,6 +89,8 @@
     <Compile Include="Assets\Scripts\Utils\SO\SO_Int.cs" />
     <Compile Include="Assets\Scripts\AnimationExample.cs" />
     <Compile Include="Assets\Scripts\Coin\CoinAminationManager.cs" />
+    <Compile Include="Assets\Scripts\Utils\BounceHelper.cs" />
+    <Compile Include="Assets\Scripts\Utils\ColorChange.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
