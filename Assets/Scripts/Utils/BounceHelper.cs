@@ -16,6 +16,11 @@ public class BounceHelper : MonoBehaviour
     {
         transform.DOScale(scaleBounce, scaleDuration).SetEase(ease).SetLoops(2, LoopType.Yoyo);
     }
+
+    public void SpawnBounce()
+    {
+        transform.DOScale(-1f, .5f).SetEase(ease).SetLoops(2, LoopType.Yoyo);
+    }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E))

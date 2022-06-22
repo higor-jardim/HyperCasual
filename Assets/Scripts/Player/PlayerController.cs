@@ -45,7 +45,7 @@ public class PlayerController : Singleton<PlayerController>
     {
         _startPosition = transform.position;
         ResetSpeed();
-
+        _bounceHelper.SpawnBounce();
     }
 
     public void Bounce()
@@ -118,6 +118,7 @@ public class PlayerController : Singleton<PlayerController>
     }
     public void PowerUpSpeedUp(float f)
     {
+        Bounce();
         _currentSpeed = f;
     }
 
@@ -128,11 +129,13 @@ public class PlayerController : Singleton<PlayerController>
 
     public void PowerUpInvincibility(bool b = true)
     {
+        Bounce();
         Invicibility = b;
     }
 
     public void ChangeHeight(float amount, float duration, float animationDuration, Ease ease)
     {
+        Bounce();
         transform.DOMoveY(_startPosition.y + amount, animationDuration).SetEase(ease);
         Invoke(nameof(ResetHeight), duration);
     }
