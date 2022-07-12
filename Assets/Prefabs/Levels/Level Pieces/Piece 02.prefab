@@ -69,21 +69,6 @@ Transform:
   m_Father: {fileID: 4162924261775330475}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6973764269897134150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4137062824640604083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07e53de1acd6b2a45a5ca290a5a84007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 1
-  meshRenderer: {fileID: 0}
-  startColor: {r: 1, g: 1, b: 1, a: 0}
 --- !u!1 &5567012268646475847
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +302,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -467,6 +457,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -542,6 +537,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -617,6 +617,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -692,6 +697,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -904,12 +914,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45e7ea19d2b49f54095ac421f0ec2d28, type: 3}
---- !u!1 &4137062824640604083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 424017313242907138, guid: 45e7ea19d2b49f54095ac421f0ec2d28,
-    type: 3}
-  m_PrefabInstance: {fileID: 4362762941281920433}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2485581903897514089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2230735735859426776, guid: 45e7ea19d2b49f54095ac421f0ec2d28,
@@ -998,6 +1002,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -1073,6 +1082,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -1148,6 +1162,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
@@ -1223,6 +1242,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9052117950870327900}
     m_Modifications:
+    - target: {fileID: 1389263198730672423, guid: dde92cec8148c0d42a24d18f47eed047,
+        type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[6]
+      value: 
+      objectReference: {fileID: 4162924261775330475}
     - target: {fileID: 6496995581990237012, guid: dde92cec8148c0d42a24d18f47eed047,
         type: 3}
       propertyPath: m_Name
