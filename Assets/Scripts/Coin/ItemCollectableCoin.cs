@@ -36,6 +36,7 @@ public class ItemCollectableCoin : ItemCollectableBase
             {
                 HideItems();
                 Destroy(gameObject);
+                
             }
         }
     }

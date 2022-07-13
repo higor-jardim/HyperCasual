@@ -7,6 +7,7 @@ public class ItemCollectableBase : MonoBehaviour
     public string compareTag = "Player";
     public ParticleSystem particleSystem;
     public float timeToHide = 3f;
+    public float timeToRespawn = 3f;
     public GameObject graphicItem;
 
     [Header("Sounds")]
@@ -26,6 +27,7 @@ public class ItemCollectableBase : MonoBehaviour
     {
         if (graphicItem != null) graphicItem.SetActive(false);
         Invoke("HideObject", timeToHide);
+        //Invoke("RespawnObject", timeToRespawn);
     }
 
     protected virtual void Collect()
@@ -37,6 +39,11 @@ public class ItemCollectableBase : MonoBehaviour
     private void HideObject()
     {
         gameObject.SetActive(false);
+    }
+
+    private void RespawnObject()
+    {
+        gameObject.SetActive(true);
     }
 
     protected virtual void OnCollect()
